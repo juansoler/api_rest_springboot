@@ -2,13 +2,13 @@
 
 Esta sencilla api genera una base de datos en PostgreSQL con dos tablas, Temas y Preguntas, con una relación uno a muchos, por lo que un tema podrá tener muchas preguntas y una pregunta puede pertenecer a un solo tema. Gracias a la sencillez de SpringBoot eso podemos lograrlo con tan solo un par de líneas de código.
 
-Clonar repo 
+### Clonar repo 
 
 ```shell
 git clone https://github.com/juansoler/api_rest_springboot.git
 cd api_rest_springboot
 ```
-Importar proyecto maven y ejecutar.
+### Importar proyecto maven y ejecutar.
 
 Para generar y ejectuar proyecto Maven desde la línea de comandos usamos la librería [Maven](https://maven.apache.org/) de Apache®
 
@@ -34,7 +34,7 @@ Si queremos compilar nuestro proyecto en archivo JAR, lo podemos hacer con el si
 mvn compile
 ```
 
-
+### Crear servicio base de datos con PostreSQL
 
 Para crear el servicio de base de datos:
 ```shell
