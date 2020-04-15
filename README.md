@@ -1,4 +1,4 @@
-# H1 Api rest creada con SpringBoot. 
+# Api rest creada con SpringBoot. 
 
 Esta sencilla api genera una base de datos en PostgreSQL con dos tablas, Temas y Preguntas, con una relación uno a muchos, por lo que un tema podrá tener muchas preguntas y una pregunta puede pertenecer a un solo tema. Gracias a la sencillez de SpringBoot eso podemos lograrlo con tan solo un par de líneas de código.
 
